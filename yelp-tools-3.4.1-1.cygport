@@ -1,5 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="GNOME documentation tools"
-
-PATCH_URI="3.2.1-notparallel.patch"
