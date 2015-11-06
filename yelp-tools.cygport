@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="yelp-tools"
-VERSION=3.14.1
+VERSION=3.18.0
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GNOME documentation tools"
@@ -12,5 +12,7 @@ wraps things up in a developer-friendly way."
 REQUIRES="coreutils gawk grep itstool libxml2 libxslt sed yelp-xsl"
 
 PATCH_URI="3.2.1-notparallel.patch"
+
+DIFF_EXCLUDES="xslt"
 
 ARCH=noarch
